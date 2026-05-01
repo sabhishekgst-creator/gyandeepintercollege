@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shree GuruKripa Gyandeep Inter College</title>
+
+<link rel="stylesheet" href="assets/styles.css">
+
+<!-- Supabase -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+
+</head>
+
+<body>
+
+<!-- DARK MODE -->
+<button id="darkModeToggle">🌙</button>
+
+<!-- HEADER -->
+<header class="header">
+  <h2>Shree GuruKripa Gyandeep Inter College</h2>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<img src="assets/logo.png" class="logo">
+
+<h1>Shree GuruKripa Gyandeep Inter College</h1>
+<p>Education Sector</p>
+
+<button onclick="openForm()">Join Now</button>
+
+</div>
+
+</section>
+
+<!-- COURSES -->
+<section class="courses">
+
+<h2>Our Courses</h2>
+
+<div class="course-container">
+
+<div class="course-card">
+<h3>ADCA</h3>
+<p>Advanced Diploma</p>
+</div>
+
+<div class="course-card">
+<h3>CCC</h3>
+<p>Govt Certified</p>
+</div>
+
+<div class="course-card">
+<h3>Tally</h3>
+<p>Accounting Course</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- FORM -->
+<div id="formPopup" class="form-popup">
+
+<div class="form-box">
+
+<h2>Join Now</h2>
+
+<input id="name" placeholder="Name">
+<input id="phone" placeholder="Phone">
+<select id="course">
+<option>ADCA</option>
+<option>CCC</option>
+<option>Tally</option>
+</select>
+
+<button onclick="sendData()">Submit</button>
+
+</div>
+</div>
+
+<!-- SCRIPT -->
+<script src="assets/main.js"></script>
+
+</body>
+</html>
